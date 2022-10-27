@@ -22,3 +22,12 @@ steps:
 - script: |
     npm run test
   displayName: 'npm test' 
+
+- task: PublishTestResults@2
+  enabled: false
+  displayName: Publish Test Results
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/test_results/jest-junit.xml'
+    mergeTestResults: true
+
