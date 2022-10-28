@@ -17,8 +17,11 @@ steps:
 
 - script: |
     npm install
-    npm testaa
-  displayName: 'npm install & build'
+  displayName: 'npm install'
+
+- script: |
+    npm run jestaa
+  displayName: 'npm testing'
 
 - task: PublishTestResults@2
   inputs:
