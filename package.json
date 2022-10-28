@@ -4,7 +4,8 @@
   "description": "Code Coverage Testing",
   "main": "app.js",
   "scripts": {
-    "test": "jest --ci --config Jest.config.js"
+    "test": "jest --ci=true --config Jest.config.js",
+    "citest": "CI=true react-app-rewired test --coverage --coverageReporters=cobertura --coverageReporters=html"
   },
   "author": "Prashant",
   "license": "ISC",
