@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --ci=true --config Jest.config.js",
     "coverage": "nyc npm run test",
-    "testAllaa": "nyc --all jest --env=node",
+    "testAllaa": "nyc --all jest --env=node"
   },
   "author": "Prashant",
   "license": "ISC",
