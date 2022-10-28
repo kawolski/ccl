@@ -21,7 +21,7 @@ steps:
 
 - script: |
     npm run test
-  displayName: 'npm run test:ci' 
+  displayName: 'npm run test' 
 
 - task: PublishTestResults@2
   enabled: false
