@@ -4,7 +4,7 @@
   "description": "Code Coverage Testing",
   "main": "app.js",
   "scripts": {
-    "test": "jest --ci=true --config Jest.config.js",
+    "test": "jest --ci=true --env=node --config Jest.config.js",
     "jj": "jest",
     "coverage": "nyc npm run jj",
     "testAllaa": "nyc --all jest --env=node"
