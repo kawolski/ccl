@@ -20,7 +20,7 @@ steps:
   displayName: 'npm install'
 
 - script: |
-    npm run testaa
+    npm run testAllaa
   displayName: 'npm testing'
 
 - task: PublishTestResults@2
