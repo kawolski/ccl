@@ -5,11 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "jest --ci=true --config Jest.config.js",
-    "buildaa": "nyc --reporter=cobertura --reporter=html ./node_modules/.bin/mocha tests/**/*.js --reporter mocha-junit-reporter --reporter-options mochaFile=./TEST-RESULTS.xml",
-    "jestaa": "jest --coverage --env=node --runInBand",
-    "testaa": "nyc jest --env=node --runInBand",
+    "coverage": "nyc npm run test",
     "testAllaa": "nyc --all jest --env=node",
-    "reportaa": "nyc report --reporter=html --report-dir=nyc_coverage"
   },
   "author": "Prashant",
   "license": "ISC",
