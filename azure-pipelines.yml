@@ -20,7 +20,7 @@ steps:
   displayName: 'npm install'
 
 - script: |
-    jest
+    npm run jj
   displayName: 'jest'
 
 - task: PublishTestResults@2
