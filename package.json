@@ -4,7 +4,7 @@
   "description": "Code Coverage Testing",
   "main": "app.js",
   "scripts": {
-    "test": "jest --ci"
+    "test": "jest --ci --config Jest.config.js"
   },
   "author": "Prashant",
   "license": "ISC",
