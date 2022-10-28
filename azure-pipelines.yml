@@ -20,8 +20,8 @@ steps:
   displayName: 'npm install'
 
 - script: |
-    npm run coverage
-  displayName: 'npm coverage'
+    npm run testAllaa
+  displayName: 'npm testAllaa'
 
 - task: PublishTestResults@2
   inputs:
