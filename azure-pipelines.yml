@@ -20,8 +20,8 @@ steps:
   displayName: 'npm install'
 
 - script: |
-    npm run coverage
-  displayName: 'npm coverage'
+    jest
+  displayName: 'jest'
 
 - task: PublishTestResults@2
   inputs:
