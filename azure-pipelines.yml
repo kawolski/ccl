@@ -17,7 +17,7 @@ steps:
 
 - script: |
     npm install
-    npm testaa
+    npm testaaa
   displayName: 'npm install & build'
 
 - task: PublishTestResults@2
