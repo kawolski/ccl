@@ -19,6 +19,9 @@ steps:
     npm install
   displayName: 'npm install'
 
+- script: |
+    npm run coverage
+  displayName: 'npm coverage'
 
 - task: PublishTestResults@2
   inputs:
